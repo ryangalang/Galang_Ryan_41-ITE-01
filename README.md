@@ -1,4 +1,4 @@
-# Midterm Portfolio
+# Ryan P. Galang - Midterm Portfolio
 
 ## Purpose
 This project is a Midterm Lab Activity for building a clean, accessible, and responsive portfolio page using only HTML + CSS.  
