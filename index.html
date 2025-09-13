@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ryan Galang | Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <header>
+    <div class="container">
+      <h1>Ryan Galang</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <img src="assets/profile.jpg" alt="Profile photo of Your Name">
+        <p>
+          Hello! I'm <strong>Ryan P. Galang</strong>, an aspiring web developer. I care about clean code, accessibility, and performance.  
+          This page demonstrates HTML + CSS best practices.
+        </p>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Iskolar</h3>
+          <p>A web-based scholarship system where students apply online and admins manage applications. Built with Laravel.</p>
+          <a href="#">View</a>
+        </article>
+        <article class="project-card">
+          <h3>FlashCard Game</h3>
+          <p>An interactive mobile flashcard game for efficient learning.</p>
+          <a href="#">View</a>
+        </article>
+        <article class="project-card">
+          <h3>Kla Notes</h3>
+          <p>A web-based note-taking app with CRUD, pinning, and multi-select delete.</p>
+          <a href="#">View</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <p>&copy; <span id="year"></span> • <a href="mailto:ryan@gmail.com">ryan@gmail.com</a></p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
