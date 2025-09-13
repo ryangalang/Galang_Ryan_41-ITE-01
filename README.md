@@ -27,9 +27,8 @@ README.md         → documentation
 
 ## Live Demo
 If GitHub Pages is enabled, the project will be accessible here:  
-[https://YOUR-USERNAME.github.io/midterm-portfolio/](https://ryangalang.github.io/Galang_Ryan_41-ITE-01/)
+https://ryangalang.github.io/Galang_Ryan_41-ITE-01/
 
 ## Author
 Name: Ryan Galang  
 Email: ryan@gmail.com 
-© 2025
